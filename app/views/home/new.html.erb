@@ -1,0 +1,12 @@
+<%= form_for home_path do %>
+  <%= label_tag(:username, "Full name") %>
+  <%= text_field_tag(:username, nil) %>
+
+  <%= label_tag(:email, "Email") %>
+  <%= text_field_tag(:email, nil) %>
+
+  <%= label_tag(:age, "Age") %>
+  <%= text_field_tag(:age, nil) %>
+
+  <%= submit_tag("Create User") %>
+<% end %>
